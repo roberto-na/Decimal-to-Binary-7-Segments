@@ -1,0 +1,13 @@
+NET "D"    		LOC = M8;
+NET "C"    		LOC = V9;
+NET "B"    		LOC = T9;
+NET "A"    		LOC = T10;
+NET "SegA" 		LOC = T17;
+NET "SegB" 		LOC = T18;
+NET "SegC" 		LOC = U17;
+NET "SegD" 		LOC = U18;
+NET "SegE" 		LOC = M14;
+NET "SegF" 		LOC = N14;
+NET "SegG" 		LOC = L14;
+NET "SegPunto" LOC = M13;
+NET "Sel"		LOC = P17;

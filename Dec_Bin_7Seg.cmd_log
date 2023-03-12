@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dec_Bin_7Seg.ucf -p xc6slx16-csg324-3 Dec_Bin_7Seg.ngc Dec_Bin_7Seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Dec_Bin_7Seg_map.ncd Dec_Bin_7Seg.ngd Dec_Bin_7Seg.pcf 
+par -w -intstyle ise -ol high -mt off Dec_Bin_7Seg_map.ncd Dec_Bin_7Seg.ncd Dec_Bin_7Seg.pcf 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dec_Bin_7Seg.ucf -p xc6slx16-csg324-3 Dec_Bin_7Seg.ngc Dec_Bin_7Seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Dec_Bin_7Seg_map.ncd Dec_Bin_7Seg.ngd Dec_Bin_7Seg.pcf 
+par -w -intstyle ise -ol high -mt off Dec_Bin_7Seg_map.ncd Dec_Bin_7Seg.ncd Dec_Bin_7Seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Dec_Bin_7Seg.twx Dec_Bin_7Seg.ncd -o Dec_Bin_7Seg.twr Dec_Bin_7Seg.pcf -ucf Dec_Bin_7Seg.ucf 
+bitgen -intstyle ise -f Dec_Bin_7Seg.ut Dec_Bin_7Seg.ncd 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dec_Bin_7Seg.ucf -p xc6slx16-csg324-3 Dec_Bin_7Seg.ngc Dec_Bin_7Seg.ngd  
+xst -intstyle ise -ifn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.xst" -ofn "C:/ProySisDigAva/Dec_Bin_7Seg/Dec_Bin_7Seg.syr" 

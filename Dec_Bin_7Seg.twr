@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Dec_Bin_7Seg.twx Dec_Bin_7Seg.ncd -o Dec_Bin_7Seg.twr
+Dec_Bin_7Seg.pcf -ucf Dec_Bin_7Seg.ucf
+
+Design file:              Dec_Bin_7Seg.ncd
+Physical constraint file: Dec_Bin_7Seg.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |SegA           |    7.531|
+A              |SegB           |    7.505|
+A              |SegC           |    7.376|
+A              |SegD           |    7.251|
+A              |SegE           |    7.100|
+A              |SegF           |    7.491|
+A              |SegG           |    7.180|
+B              |SegA           |    7.971|
+B              |SegB           |    7.727|
+B              |SegC           |    7.748|
+B              |SegD           |    7.691|
+B              |SegE           |    7.581|
+B              |SegF           |    7.863|
+B              |SegG           |    7.661|
+C              |SegA           |    7.847|
+C              |SegB           |    8.139|
+C              |SegC           |    7.954|
+C              |SegD           |    7.567|
+C              |SegE           |    7.594|
+C              |SegF           |    8.069|
+C              |SegG           |    7.674|
+D              |SegA           |    7.681|
+D              |SegB           |    7.815|
+D              |SegC           |    7.872|
+D              |SegD           |    7.401|
+D              |SegE           |    7.670|
+D              |SegF           |    7.987|
+D              |SegG           |    7.750|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Aug 22 12:48:15 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 175 MB
+
+
+

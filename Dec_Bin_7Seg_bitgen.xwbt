@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\ProySisDigAva\Dec_Bin_7Seg\Dec_Bin_7Seg.ncd
+OUTFILE=C:\ProySisDigAva\Dec_Bin_7Seg\Dec_Bin_7Seg.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\ProySisDigAva\Dec_Bin_7Seg
+LICENSE=WebPack
+USER_INFO=211569669_0_0_833
